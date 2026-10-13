@@ -39,8 +39,7 @@ Overlapping forecast origins are not independent statistical replicates. Paired 
 
 ### Data availability
 
-The GitHub-ready bundle includes **derived experiment records**; original source datasets can be obtained from [ETT](https://github.com/zhouhaoyi/ETDataset), [Beijing Multi-Site](https://archive.ics.uci.edu/dataset/501/beijing), and [Tetouan Power Consumption](https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city). Review redistribution rights and archive contents before pushing the included result bundles to a public repository.
-
+The GitHub-ready bundle includes **derived experiment records**; original source datasets can be obtained from [ETT](https://github.com/zhouhaoyi/ETDataset), [Beijing Multi-Site](https://archive.ics.uci.edu/dataset/501/beijing), and [Tetouan Power Consumption](https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city).
 
 ### Scope and limitations
 
