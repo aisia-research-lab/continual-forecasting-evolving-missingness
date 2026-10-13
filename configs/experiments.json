@@ -1,0 +1,51 @@
+{
+  "description": "Manuscript experiments",
+  "datasets": {
+    "ETTh1": {
+      "horizons": [
+        24,
+        96
+      ],
+      "lookback": 96
+    },
+    "ETTh2": {
+      "horizons": [
+        24,
+        96
+      ],
+      "lookback": 96
+    },
+    "Beijing": {
+      "horizons": [
+        24,
+        96
+      ],
+      "lookback": 96
+    },
+    "Tetouan": {
+      "horizons": [
+        96,
+        144
+      ],
+      "lookback": 144
+    }
+  },
+  "forecast_origin_stride": 24,
+  "test_delays_in_dataset_steps": [
+    0,
+    24,
+    96
+  ],
+  "input_masks": [
+    "MCAR",
+    "synthetic value-dependent MNAR"
+  ],
+  "train_validation_test_split_external": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "release_rule": "target_end + reporting_delay < next_forecast_origin",
+  "measurement_policy": "Genuinely observed targets only; never synthesize missing ground truth",
+  "neural_training_source": "Too heavy to be available in this repository. Please reproduce them by following our instructions."
+}

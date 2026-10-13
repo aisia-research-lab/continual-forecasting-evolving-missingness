@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    "Frozen",
+    "OMPB-Delayed",
+    "Clip1"
+  ],
+  "validation_masks": [
+    "MCAR",
+    "synthetic MNAR"
+  ],
+  "validation_delay_steps": 96,
+  "validation_mask_seed_offset": 100000,
+  "selection_priority": [
+    "Clip1",
+    "OMPB-Delayed",
+    "Frozen"
+  ],
+  "clip1_requirements": {
+    "average_vs_delayed": 0.99,
+    "average_vs_frozen": 0.98,
+    "per_mask_vs_delayed": 1.01,
+    "per_mask_vs_frozen": 1.05
+  },
+  "delayed_requirements": {
+    "average_vs_frozen": 0.98,
+    "per_mask_vs_frozen": 1.05
+  },
+  "notes": "One whole-arm decision per dataset/horizon/seed; same choice for every test mask and delay; source checkpoint restarted for test"
+}
